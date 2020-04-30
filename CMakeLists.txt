@@ -30,7 +30,7 @@ enable_testing()
 # Find Xilinx and Intel OpenCL software for enabling test targets 
 find_package(Threads)
 find_package(Vitis)
-find_package(IntelFPGAOpenCL)
+# find_package(IntelFPGAOpenCL)
 
 # Xilinx example setup and testing
 if(Vitis_FOUND AND Threads_FOUND)
